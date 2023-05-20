@@ -12,3 +12,7 @@
     //#define RGB_IDLE_MAXIMUM_BRIGHTNESS RGB_MATRIX_MAXIMUM_BRIGHTNESS*0.5
     //#define RGB_FADE_IN
 #endif
+
+#define MOUSEKEY_INTERVAL 6         // default: 20. Recommended to set as 1000/screen refresh rate; 1000/165 -> 6
+#define MOUSEKEY_MAX_SPEED 3        // default: 10
+#define MOUSEKEY_TIME_TO_MAX 60     // default: 30
